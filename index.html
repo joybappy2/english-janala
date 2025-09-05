@@ -45,8 +45,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <nav>
-      <div class="navbar bg-base-100 shadow-sm">
+
+    <nav class="bg-[#badeff5b] shadow-sm">
+      <div class="navbar max-w-[1760px] m-auto">
         <div class="navbar-start">
           <a class="btn btn-ghost text-xl">
             <span>English</span>
@@ -55,9 +56,19 @@
           </a>
         </div>
         <div class="navbar-end">
-          <a class="btn">Button</a>
+          <a class="btn border border-[#422AD5] bg-transparent text-[#422AD5] font-bold"><span><i class="fa-solid fa-circle-question"></i></span>FAQ</a>
+          <a class="btn border border-[#422AD5] bg-transparent text-[#422AD5] font-bold ml-4 px-7">
+            <span><i class="fa-solid fa-book-open"></i></span>
+            Learn
+          </a>
+          <a class="btn border border-[#422AD5] bg-transparent text-[#422AD5] font-bold ml-4 px-7">
+            <span><i class="fa-solid fa-arrow-right-from-bracket"></i></span>
+            Logout
+
+          </a>
         </div>
       </div>
     </nav>
+
   </body>
 </html>
